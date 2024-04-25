@@ -149,6 +149,7 @@ img {
   overflow: hidden; /* For the animations ScrollReveal*/
 }
 
+
 /*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
@@ -361,8 +362,10 @@ img {
   justify-items: center;
 }
 .logos__img img{
-  height: 80px;
-  opacity: .2;
+  width: 100px;
+  height: 100px;
+  
+  opacity: .4;
   transition: .3s;
 }
 
@@ -738,6 +741,10 @@ img {
     grid-template-columns: repeat(2, max-content);
     justify-content: space-between;
   }
+  .logos__img img{
+    width: 150px;
+    height: 150px;
+  }
 }
 /* For large devices */
 @media screen and (min-width:1023px){
@@ -859,6 +866,10 @@ img {
   .footer__links{
     row-gap: 1rem;
   }
+  .logos__img img{
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media screen and(min-width:1040px) {
@@ -884,7 +895,10 @@ img {
   .header{
     position: static;
   }
+
 }
+
+
 /* For 2K & 4K resolutions */
 
   .padding-all {
